@@ -1,0 +1,40 @@
+#root 
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar 
+{
+    background: #fafafa;
+    border-bottom: 2px solid #0d6efd;
+    padding: 15px 0;
+}
+
+.n-link
+{
+    margin: 0 10px;
+}
+
+.content 
+{
+    flex-grow: 1;
+}
+
+.container 
+{
+    height: inherit;
+}
+
+.footer
+{
+    background: #555;
+    border-top: 4px solid #bbb;
+    padding: 25px 0;
+}
+
+.footer a 
+{
+    color: #fff;
+}
